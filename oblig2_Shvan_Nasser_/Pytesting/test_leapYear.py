@@ -12,7 +12,7 @@ def test_divide100AndNot400():
     assert main.isLeapYear(1700) == False
 
 def test_notDividedBy4():
-    assert main.isLeapYear(2050) == True
+    assert main.isLeapYear(2050) == False
 
 
 
